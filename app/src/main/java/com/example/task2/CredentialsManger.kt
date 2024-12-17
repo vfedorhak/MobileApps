@@ -14,5 +14,6 @@ class CredentialsManager {
         val regex = Regex(emailPattern)
         return regex.matches(mail)
     }
+
 }
 
